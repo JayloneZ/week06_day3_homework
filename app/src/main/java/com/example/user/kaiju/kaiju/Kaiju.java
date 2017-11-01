@@ -19,6 +19,8 @@ public abstract class Kaiju {
 
     public abstract String roar();
 
+    public abstract String move();
+
     public void attack(Vehicle vehicle) {
         int health = vehicle.getHealthValue() - this.attackValue;
         vehicle.setHealthValue( health );

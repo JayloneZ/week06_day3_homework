@@ -13,4 +13,8 @@ public class KingKong extends Kaiju {
     public String roar() {
         return "ROAR I'M KING KONG!";
     }
+
+    public String move() {
+        return "Just climbing some skyscrapers.";
+    }
 }

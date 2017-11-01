@@ -37,4 +37,9 @@ public class GodzillaTest {
         assertEquals(20, tank.getHealthValue());
     }
 
+    @Test
+    public void canMove() {
+        assertEquals("Just walking through some skyscrapers.", godzilla.move());
+    }
+
 }

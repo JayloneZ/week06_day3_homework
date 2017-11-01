@@ -33,4 +33,9 @@ public class KingKongTest {
         kingKong.attack(tank);
         assertEquals(10, tank.getHealthValue());
     }
+
+    @Test
+    public void canMove() {
+        assertEquals("Just climbing some skyscrapers.", kingKong.move());
+    }
 }
